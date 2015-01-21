@@ -17,7 +17,7 @@ html_doc = """
 	{exp:ce_cache:it id="head-metadata"}
 	<title>{exp:surgeeo:title}</title>
 	<meta name="description" content="{exp:surgeeo:description}" />
-	<meta name="author" content="American Kennel Club">
+	<meta name="author" content="Thingy">
 
 	{!-- Facebook Metadata /--}
 	{!-- <meta property="fb:app_id" content="" /> --}
@@ -33,7 +33,7 @@ html_doc = """
 
 	{!-- Twitter Card Metadata /--}
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@akcdoglovers" />
+	<meta name="twitter:site" content="@epocsquadron" />
 	<meta name="twitter:title" content="{if '{exp:surgeeo:twtr_title}'}{exp:surgeeo:twtr_title}{if:else}{exp:surgeeo:title}{/if}" />
 	<meta name="twitter:description" content="{if '{exp:surgeeo:twtr_description}'}{exp:surgeeo:twtr_description}{if:else}{exp:surgeeo:description}{/if}" />
 	<meta name="twitter:image"  content="{exp:surgeeo:twtr_img}" />
@@ -59,7 +59,7 @@ html_doc = """
 
 	{exp:ce_cache:it id="head-rels"}
 	{if layout:has_rss}
-	<link rel="alternate" href="{structure:page:url}rss/" type="application/atom+xml" title="AKC" charset="utf-8">
+	<link rel="alternate" href="{structure:page:url}rss/" type="application/atom+xml" title="Thingy" charset="utf-8">
 	{/if}
 
 	{if paginated || layout:archive == 'true'}<link rel="canonical" href="{structure:page:url}">{/if}
